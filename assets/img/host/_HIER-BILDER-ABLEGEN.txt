@@ -1,0 +1,18 @@
+================================================================
+  BILDER HIER ABLEGEN — Foto des Gastgebers Christoph
+================================================================
+
+Lege deine Fotos in genau diesem Ordner ab und benenne sie so:
+
+   christoph.jpg
+
+Hinweise:
+  - Format: JPG (oder .webp, dann in assets/js/gallery.js die
+    Endung mit anpassen)
+  - Empfohlene Breite: 1600-2000 Pixel, Querformat
+  - Dateigroesse moeglichst unter 400 KB pro Bild
+  - Fehlt eine Datei, zeigt die Seite dort automatisch einen
+    dezenten Platzhalter - die Seite bleibt also immer intakt.
+
+Mehr oder weniger Bilder? In assets/js/gallery.js Zeilen
+ergaenzen oder loeschen.

@@ -1,0 +1,12 @@
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editoren
+.vscode/
+.idea/
+*.swp
+
+# Node (nur falls du später Werkzeuge nutzt)
+node_modules/
