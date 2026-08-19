@@ -27,9 +27,6 @@ window.GALLERY = [
     alt: { de: "Fernsehbereich mit großem Flachbild-TV auf Holzsideboard, Stehlampe und Zimmerpflanze unter der Dachschräge",
            en: "TV corner with a large flat-screen on a wooden sideboard, floor lamp and houseplant beneath the sloped ceiling" } },
   { cat: "wohnzimmer", file: "assets/img/wohnzimmer/wohnzimmer-03.jpg",
-    alt: { de: "Sitzecke mit Sofa und Sessel am Fenster im Wohnbereich der Ferienwohnung",
-           en: "Seating corner with sofa and armchair by the window in the holiday flat's living area" } },
-  { cat: "wohnzimmer", file: "assets/img/wohnzimmer/wohnzimmer-04.jpg",
     alt: { de: "Blick über die Eckcouch zur Zimmertür, mit rundem Couchtisch und Stehleuchte",
            en: "View across the corner sofa towards the door, with a round coffee table and floor lamp" } },
 
