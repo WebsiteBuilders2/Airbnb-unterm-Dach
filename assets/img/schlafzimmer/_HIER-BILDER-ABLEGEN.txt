@@ -1,25 +1,22 @@
 ================================================================
-  BILDER HIER ABLEGEN — Schlafzimmer
+  BILDER HIER ABLEGEN — Schlafzimmer (3 Fotos)
 ================================================================
 
-Lege deine Fotos in genau diesem Ordner ab und benenne sie so:
+Diese Dateien werden erwartet (exakt diese Namen):
 
    schlafzimmer-01.jpg
    schlafzimmer-02.jpg
    schlafzimmer-03.jpg
-   schlafzimmer-04.jpg
-   schlafzimmer-05.jpg
-   schlafzimmer-06.jpg
-   schlafzimmer-07.jpg
-   schlafzimmer-08.jpg
+
+Reihenfolge laut deinen Fotos:
+  01 = die beiden bezogenen Betten mit Spiegel
+  02 = Zimmeruebersicht mit Kronleuchter und Teppich
+  03 = Massivholzschrank und Kommode
 
 Hinweise:
-  - Format: JPG (oder .webp, dann in assets/js/gallery.js die
-    Endung mit anpassen)
-  - Empfohlene Breite: 1600-2000 Pixel, Querformat
-  - Dateigroesse moeglichst unter 400 KB pro Bild
-  - Fehlt eine Datei, zeigt die Seite dort automatisch einen
-    dezenten Platzhalter - die Seite bleibt also immer intakt.
-
-Mehr oder weniger Bilder? In assets/js/gallery.js Zeilen
-ergaenzen oder loeschen.
+  - Format JPG, Breite 1600-2000 Pixel
+  - Dateigroesse moeglichst unter 400 KB
+  - Fehlt eine Datei, zeigt die Seite dort einen dezenten
+    Platzhalter - die Seite bleibt also immer intakt.
+  - Mehr oder weniger Bilder? In assets/js/gallery.js
+    Zeilen ergaenzen oder loeschen.

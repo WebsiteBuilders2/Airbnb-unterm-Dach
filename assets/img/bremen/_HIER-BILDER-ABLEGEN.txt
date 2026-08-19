@@ -1,8 +1,8 @@
 ================================================================
-  BILDER HIER ABLEGEN — Bremer Innenstadt
+  BILDER HIER ABLEGEN — Bremer Innenstadt (6 Fotos) - FEHLT NOCH
 ================================================================
 
-Lege deine Fotos in genau diesem Ordner ab und benenne sie so:
+Diese Dateien werden erwartet (exakt diese Namen):
 
    marktplatz.jpg
    boettcherstrasse.jpg
@@ -11,13 +11,18 @@ Lege deine Fotos in genau diesem Ordner ab und benenne sie so:
    universum.jpg
    buergerpark.jpg
 
-Hinweise:
-  - Format: JPG (oder .webp, dann in assets/js/gallery.js die
-    Endung mit anpassen)
-  - Empfohlene Breite: 1600-2000 Pixel, Querformat
-  - Dateigroesse moeglichst unter 400 KB pro Bild
-  - Fehlt eine Datei, zeigt die Seite dort automatisch einen
-    dezenten Platzhalter - die Seite bleibt also immer intakt.
+ACHTUNG URHEBERRECHT: Verwende nur eigene Fotos oder Bilder mit
+freier Lizenz. Kostenlos und ohne Namensnennung nutzbar sind z. B.
+unsplash.com und pexels.com. Bilder einfach aus der Google-Suche zu
+kopieren ist nicht erlaubt und kann teuer werden.
 
-Mehr oder weniger Bilder? In assets/js/gallery.js Zeilen
-ergaenzen oder loeschen.
+Wenn du keine Bremen-Fotos hast: In assets/js/gallery.js einfach die
+Liste BREMEN_PLACES leeren, dann verschwindet der Bereich sauber.
+
+Hinweise:
+  - Format JPG, Breite 1600-2000 Pixel
+  - Dateigroesse moeglichst unter 400 KB
+  - Fehlt eine Datei, zeigt die Seite dort einen dezenten
+    Platzhalter - die Seite bleibt also immer intakt.
+  - Mehr oder weniger Bilder? In assets/js/gallery.js
+    Zeilen ergaenzen oder loeschen.

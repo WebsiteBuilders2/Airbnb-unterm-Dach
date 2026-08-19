@@ -1,23 +1,22 @@
 ================================================================
-  BILDER HIER ABLEGEN — Kueche
+  BILDER HIER ABLEGEN — Kueche (3 Fotos)
 ================================================================
 
-Lege deine Fotos in genau diesem Ordner ab und benenne sie so:
+Diese Dateien werden erwartet (exakt diese Namen):
 
    kueche-01.jpg
    kueche-02.jpg
    kueche-03.jpg
-   kueche-04.jpg
-   kueche-05.jpg
-   kueche-06.jpg
+
+Reihenfolge laut deinen Fotos:
+  01 = Gesamtansicht mit Theke, Barhockern und Natursteinwand
+  02 = Blick ueber die Theke zur Kuechenzeile (Hochformat)
+  03 = Natursteinwand mit Sideboard und Mikrowelle
 
 Hinweise:
-  - Format: JPG (oder .webp, dann in assets/js/gallery.js die
-    Endung mit anpassen)
-  - Empfohlene Breite: 1600-2000 Pixel, Querformat
-  - Dateigroesse moeglichst unter 400 KB pro Bild
-  - Fehlt eine Datei, zeigt die Seite dort automatisch einen
-    dezenten Platzhalter - die Seite bleibt also immer intakt.
-
-Mehr oder weniger Bilder? In assets/js/gallery.js Zeilen
-ergaenzen oder loeschen.
+  - Format JPG, Breite 1600-2000 Pixel
+  - Dateigroesse moeglichst unter 400 KB
+  - Fehlt eine Datei, zeigt die Seite dort einen dezenten
+    Platzhalter - die Seite bleibt also immer intakt.
+  - Mehr oder weniger Bilder? In assets/js/gallery.js
+    Zeilen ergaenzen oder loeschen.

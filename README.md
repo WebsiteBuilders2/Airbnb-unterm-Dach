@@ -33,17 +33,26 @@ Solange dort noch Platzhalter stehen, zeigt das Formular einen entsprechenden Hi
 In jedem Bildordner liegt eine Datei `_HIER-BILDER-ABLEGEN.txt` mit den erwarteten Dateinamen.
 Lege deine Fotos einfach unter genau diesen Namen ab — **es muss nichts am Code geändert werden.**
 
-| Ordner | Inhalt | Anzahl |
-|---|---|---|
-| `assets/img/hero/` | Titelbild ganz oben — nimm das schönste Foto | 1 |
-| `assets/img/wohnzimmer/` | Wohnbereich, Couch, Essbereich | 6 |
-| `assets/img/schlafzimmer/` | Bett, Kommode, Schrank | 8 |
-| `assets/img/kueche/` | Küchenzeile, Theke, Barhocker | 6 |
-| `assets/img/bad/` | Dusche, Badewanne, Waschbecken | 4 |
-| `assets/img/aussen/` | **Parkplatz**, Hauseingang, Garten, Grill | 5 |
-| `assets/img/bremen/` | Marktplatz, Böttcherstraße, Schnoor, Schlachte, Universum, Bürgerpark | 6 |
-| `assets/img/host/` | Foto von Christoph | 1 |
-| `assets/img/og/` | Vorschaubild fürs Teilen, 1200 × 630 Pixel | 1 |
+| Ordner | Inhalt | Anzahl | Status |
+|---|---|---|---|
+| `assets/img/hero/` | Titelbild — empfohlen: die Küchenansicht mit Theke | 1 | offen |
+| `assets/img/wohnzimmer/` | Eckcouch, Couchtisch, Fernsehbereich | 3 | Fotos vorhanden |
+| `assets/img/schlafzimmer/` | Betten, Zimmerübersicht, Massivholzschrank | 3 | Fotos vorhanden |
+| `assets/img/kueche/` | Theke mit Barhockern, Küchenzeile, Natursteinwand | 3 | Fotos vorhanden |
+| `assets/img/bad/` | Duschkabine, Eckbadewanne, Waschbecken | 3 | Fotos vorhanden |
+| `assets/img/aussen/` | **Parkplatz**, Hauseingang | 2 | **fehlt noch** |
+| `assets/img/bremen/` | Marktplatz, Böttcherstraße, Schnoor, Schlachte, Universum, Bürgerpark | 6 | offen |
+| `assets/img/host/` | Porträt von Christoph | 1 | offen |
+| `assets/img/og/` | Vorschaubild fürs Teilen, 1200 × 630 Pixel | 1 | offen |
+
+> **Das wichtigste fehlende Foto ist der Parkplatz.** Er ist euer stärkstes
+> Verkaufsargument und wird auf der Seite an vier Stellen genannt — bisher gibt es
+> aber kein einziges Bild davon.
+
+> **Bremen-Bilder und Urheberrecht:** Nur eigene Fotos verwenden oder frei lizenzierte
+> von unsplash.com bzw. pexels.com. Bilder aus der Google-Suche zu übernehmen ist nicht
+> erlaubt. Wenn ihr keine habt: in `assets/js/gallery.js` die Liste `BREMEN_PLACES`
+> leeren, dann verschwindet der Bereich sauber von der Seite.
 
 **Solange ein Bild fehlt, zeigt die Seite an der Stelle einen dezent gestalteten Platzhalter.**
 Die Seite sieht also zu keinem Zeitpunkt kaputt aus — sie füllt sich Stück für Stück.

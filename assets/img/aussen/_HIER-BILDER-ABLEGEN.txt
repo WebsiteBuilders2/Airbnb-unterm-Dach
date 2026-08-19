@@ -1,22 +1,23 @@
 ================================================================
-  BILDER HIER ABLEGEN — Aussenbereich, Parkplatz und Haus
+  BILDER HIER ABLEGEN — Aussenbereich und Parkplatz (2 Fotos) - FEHLT NOCH
 ================================================================
 
-Lege deine Fotos in genau diesem Ordner ab und benenne sie so:
+Diese Dateien werden erwartet (exakt diese Namen):
 
    aussen-01.jpg
    aussen-02.jpg
-   aussen-03.jpg
-   aussen-04.jpg
-   aussen-05.jpg
+
+WICHTIG: Diese beiden Fotos fehlen bisher und sind die wertvollsten
+der ganzen Seite. Der eigene Parkplatz ist euer staerkstes Argument -
+aber aktuell gibt es kein einziges Bild davon.
+
+  01 = der freie Privatparkplatz direkt am Haus
+  02 = Hauseingang bzw. Haus von aussen
 
 Hinweise:
-  - Format: JPG (oder .webp, dann in assets/js/gallery.js die
-    Endung mit anpassen)
-  - Empfohlene Breite: 1600-2000 Pixel, Querformat
-  - Dateigroesse moeglichst unter 400 KB pro Bild
-  - Fehlt eine Datei, zeigt die Seite dort automatisch einen
-    dezenten Platzhalter - die Seite bleibt also immer intakt.
-
-Mehr oder weniger Bilder? In assets/js/gallery.js Zeilen
-ergaenzen oder loeschen.
+  - Format JPG, Breite 1600-2000 Pixel
+  - Dateigroesse moeglichst unter 400 KB
+  - Fehlt eine Datei, zeigt die Seite dort einen dezenten
+    Platzhalter - die Seite bleibt also immer intakt.
+  - Mehr oder weniger Bilder? In assets/js/gallery.js
+    Zeilen ergaenzen oder loeschen.

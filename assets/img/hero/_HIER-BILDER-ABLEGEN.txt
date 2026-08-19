@@ -1,18 +1,19 @@
 ================================================================
-  BILDER HIER ABLEGEN — Titelbild ganz oben (das schoenste Foto!)
+  BILDER HIER ABLEGEN — Titelbild ganz oben (1 Foto)
 ================================================================
 
-Lege deine Fotos in genau diesem Ordner ab und benenne sie so:
+Diese Dateien werden erwartet (exakt diese Namen):
 
    hero.jpg
 
-Hinweise:
-  - Format: JPG (oder .webp, dann in assets/js/gallery.js die
-    Endung mit anpassen)
-  - Empfohlene Breite: 1600-2000 Pixel, Querformat
-  - Dateigroesse moeglichst unter 400 KB pro Bild
-  - Fehlt eine Datei, zeigt die Seite dort automatisch einen
-    dezenten Platzhalter - die Seite bleibt also immer intakt.
+EMPFEHLUNG: Nimm dafuer die Kuechen-Gesamtansicht mit Theke,
+Barhockern und Natursteinwand. Sie ist das markanteste Bild der
+Wohnung und funktioniert im Querformat am besten.
 
-Mehr oder weniger Bilder? In assets/js/gallery.js Zeilen
-ergaenzen oder loeschen.
+Hinweise:
+  - Format JPG, Breite 1600-2000 Pixel
+  - Dateigroesse moeglichst unter 400 KB
+  - Fehlt eine Datei, zeigt die Seite dort einen dezenten
+    Platzhalter - die Seite bleibt also immer intakt.
+  - Mehr oder weniger Bilder? In assets/js/gallery.js
+    Zeilen ergaenzen oder loeschen.

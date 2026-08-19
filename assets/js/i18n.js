@@ -14,7 +14,7 @@ window.I18N = {
 
     /* ---- Seitenkopf (Browser-Tab & Suchmaschine) ---- */
     "meta.title": "Unter dem Dach with parking · Holiday flat in Bremen · 9.8/10 from 109 reviews",
-    "meta.desc":  "Modern 65 m² holiday flat in Bremen with its own free parking space. Rated 9.8 out of 10 by more than 100 guests. Bremen city centre under 8 km away. Enquire directly, no booking fee.",
+    "meta.desc":  "Modern 65 m² holiday flat in Bremen with its own free parking space, an open kitchen with a wooden bar counter and a bathroom with corner tub and separate shower. Rated 9.8 out of 10 by more than 100 guests. Enquire directly, no booking fee.",
 
     /* ---- Navigation ---- */
     "a11y.skip":     "Skip to content",
@@ -63,8 +63,8 @@ window.I18N = {
     "usp.2.d": "109 guests have rated us — with the top mark of “exceptional”. Cleanliness even scored a perfect 10.0.",
     "usp.3.t": "City centre under 8 km",
     "usp.3.d": "Market square, Schnoor and Schlachte in about 15 minutes by car. The Mercedes plant takes roughly 8 minutes.",
-    "usp.4.t": "A kitchen with everything in it",
-    "usp.4.d": "From dishwasher and induction hob to coffee machine, dishwasher tabs and shower gel: there is nothing you need to bring.",
+    "usp.4.t": "Open kitchen with a wooden bar",
+    "usp.4.d": "A solid wood counter with four bar stools in front of a stone-clad wall. From dishwasher and induction hob to dishwasher tabs, everything is there — you need bring nothing.",
     "usp.5.t": "Bathroom with tub and shower",
     "usp.5.d": "Newly renovated, spotless, with towels, hairdryer and complimentary toiletries. Arrive and take a deep breath.",
     "usp.6.t": "Space for up to 4 people",
@@ -83,16 +83,16 @@ window.I18N = {
 
     "rooms.1.n": "01 — Living area",
     "rooms.1.t": "Arrive and put your feet up",
-    "rooms.1.d": "A bright, open living area with a comfortable sofa, an LED television including streaming services and a view of the greenery. The sofa converts into a bed for two adults in a few easy steps — handy when friends or children come along.",
+    "rooms.1.d": "Plenty of room to spread out: a large grey corner sofa, plus an armchair and a round wooden table on a soft rug. Two windows let in plenty of light and open onto the greenery. The TV corner sits snugly beneath the sloped ceiling — with a large flat-screen and streaming services. The sofa converts into a bed for two adults in a few easy steps.",
     "rooms.2.n": "02 — Bedroom",
     "rooms.2.t": "Sleep peacefully in a quiet side street",
-    "rooms.2.d": "A separate bedroom with a French double bed, reading lamps on both sides and a socket right by the bed. Fresh bed linen is included, and a spacious wardrobe takes even long-stay luggage.",
+    "rooms.2.d": "A separate bedroom with a wooden bed, reading lamps on both sides and a socket right by the bed. Fresh bed linen is included, and the large solid-wood wardrobe takes even long-stay luggage. Travelling with children? Then the extra beds are already made up when you arrive — something families particularly appreciate.",
     "rooms.3.n": "03 — Kitchen",
     "rooms.3.t": "Just start cooking, no shopping trip first",
-    "rooms.3.d": "The open kitchenette with its wooden worktop and bar stools is many guests' favourite spot. Two induction hobs, dishwasher, microwave, fridge, coffee machine, kettle and toaster are ready to go — including washing-up liquid and dishwasher tabs. The dining table seats four.",
+    "rooms.3.d": "The heart of the flat: an open kitchen with a solid wood counter and four bar stools, backed by a stone-clad wall that gives the room real character. Two induction hobs, dishwasher, microwave, fridge, coffee machine, kettle and toaster are ready to go — including washing-up liquid and dishwasher tabs. Many guests have breakfast right here at the counter, looking out of the window.",
     "rooms.4.n": "04 — Bathroom",
     "rooms.4.t": "Bathtub and shower — both are here",
-    "rooms.4.d": "The newly renovated bathroom offers both a bathtub and a separate shower. Towels, hairdryer, toilet paper and complimentary toiletries are provided. For cleanliness our guests gave us the full 10.0 points.",
+    "rooms.4.d": "The newly renovated bathroom has a roomy corner bathtub <em>and</em> a separate shower cabin — so you do not have to choose. Fresh towels wait on the wooden shelf, along with a hairdryer, toilet paper and complimentary toiletries. For cleanliness our guests gave us the full 10.0 points.",
 
     /* ---- Ausstattung ---- */
     "amen.eyebrow": "Amenities",
@@ -215,6 +215,7 @@ window.I18N = {
 
     /* ---- Kurze Ausstattungs-Schlagworte (Chips) ---- */
     "_phrases": {
+      "Große Eckcouch":             "Large corner sofa",
       "Schlafcouch für 2":          "Sofa bed for 2",
       "Flachbild-TV mit Streaming": "Flat-screen TV with streaming",
       "Gartenblick":                "Garden view",
@@ -229,9 +230,10 @@ window.I18N = {
       "Spülmaschine":               "Dishwasher",
       "Kaffeemaschine":             "Coffee machine",
       "Mikrowelle & Toaster":       "Microwave & toaster",
-      "Esstisch für 4":             "Dining table for 4",
+      "Theke mit 4 Barhockern":     "Counter with 4 bar stools",
+      "Natursteinwand":             "Stone-clad feature wall",
       "Kinderhochstuhl":            "High chair",
-      "Badewanne":                  "Bathtub",
+      "Eckbadewanne":               "Corner bathtub",
       "Separate Dusche":            "Separate shower",
       "Handtücher inklusive":       "Towels included",
       "Föhn":                       "Hairdryer",

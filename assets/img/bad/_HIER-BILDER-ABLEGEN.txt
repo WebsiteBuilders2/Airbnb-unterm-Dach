@@ -1,21 +1,26 @@
 ================================================================
-  BILDER HIER ABLEGEN — Badezimmer
+  BILDER HIER ABLEGEN — Badezimmer (3 Fotos)
 ================================================================
 
-Lege deine Fotos in genau diesem Ordner ab und benenne sie so:
+Diese Dateien werden erwartet (exakt diese Namen):
 
    bad-01.jpg
    bad-02.jpg
    bad-03.jpg
-   bad-04.jpg
+
+Reihenfolge laut deinen Fotos:
+  01 = Duschkabine mit Handtuchregal
+  02 = Eckbadewanne unter der Dachschraege
+  03 = Waschbecken mit beleuchtetem Spiegel
+
+TIPP: Auf Foto 03 stehen Putzmittel und Eimer unter dem Waschbecken.
+Fuer die Landingpage wirkt es hochwertiger, wenn du das Bild ohne
+diese Gegenstaende neu aufnimmst oder enger zuschneidest.
 
 Hinweise:
-  - Format: JPG (oder .webp, dann in assets/js/gallery.js die
-    Endung mit anpassen)
-  - Empfohlene Breite: 1600-2000 Pixel, Querformat
-  - Dateigroesse moeglichst unter 400 KB pro Bild
-  - Fehlt eine Datei, zeigt die Seite dort automatisch einen
-    dezenten Platzhalter - die Seite bleibt also immer intakt.
-
-Mehr oder weniger Bilder? In assets/js/gallery.js Zeilen
-ergaenzen oder loeschen.
+  - Format JPG, Breite 1600-2000 Pixel
+  - Dateigroesse moeglichst unter 400 KB
+  - Fehlt eine Datei, zeigt die Seite dort einen dezenten
+    Platzhalter - die Seite bleibt also immer intakt.
+  - Mehr oder weniger Bilder? In assets/js/gallery.js
+    Zeilen ergaenzen oder loeschen.

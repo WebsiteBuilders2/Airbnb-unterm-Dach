@@ -1,23 +1,22 @@
 ================================================================
-  BILDER HIER ABLEGEN — Wohnbereich
+  BILDER HIER ABLEGEN — Wohnbereich (3 Fotos)
 ================================================================
 
-Lege deine Fotos in genau diesem Ordner ab und benenne sie so:
+Diese Dateien werden erwartet (exakt diese Namen):
 
    wohnzimmer-01.jpg
    wohnzimmer-02.jpg
    wohnzimmer-03.jpg
-   wohnzimmer-04.jpg
-   wohnzimmer-05.jpg
-   wohnzimmer-06.jpg
+
+Reihenfolge laut deinen Fotos:
+  01 = Gesamtansicht mit Eckcouch, Sessel und Fenstern
+  02 = Eckcouch mit Couchtisch auf dem Teppich
+  03 = Fernsehbereich mit Sideboard und Stehlampe
 
 Hinweise:
-  - Format: JPG (oder .webp, dann in assets/js/gallery.js die
-    Endung mit anpassen)
-  - Empfohlene Breite: 1600-2000 Pixel, Querformat
-  - Dateigroesse moeglichst unter 400 KB pro Bild
-  - Fehlt eine Datei, zeigt die Seite dort automatisch einen
-    dezenten Platzhalter - die Seite bleibt also immer intakt.
-
-Mehr oder weniger Bilder? In assets/js/gallery.js Zeilen
-ergaenzen oder loeschen.
+  - Format JPG, Breite 1600-2000 Pixel
+  - Dateigroesse moeglichst unter 400 KB
+  - Fehlt eine Datei, zeigt die Seite dort einen dezenten
+    Platzhalter - die Seite bleibt also immer intakt.
+  - Mehr oder weniger Bilder? In assets/js/gallery.js
+    Zeilen ergaenzen oder loeschen.
