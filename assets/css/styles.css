@@ -117,7 +117,7 @@ p:last-child { margin-bottom: 0; }
 a { color: inherit; text-decoration: none; }
 
 img, picture, svg, video { max-width: 100%; display: block; }
-img { height: auto; }
+img { height: auto; image-orientation: from-image; }
 
 ul, ol { margin: 0; padding: 0; list-style: none; }
 

@@ -40,19 +40,19 @@ Lege deine Fotos einfach unter genau diesen Namen ab — **es muss nichts am Cod
 | `assets/img/schlafzimmer/` | Betten, Zimmerübersicht, Massivholzschrank | 3 | Fotos vorhanden |
 | `assets/img/kueche/` | Theke mit Barhockern, Küchenzeile, Natursteinwand | 3 | Fotos vorhanden |
 | `assets/img/bad/` | Duschkabine, Eckbadewanne, Waschbecken | 3 | Fotos vorhanden |
-| `assets/img/aussen/` | **Parkplatz**, Hauseingang | 2 | **fehlt noch** |
+| `assets/img/aussen/` | Parkplatz, Hauseingang | 2 | Parkplatz da, Hauseingang fehlt |
 | `assets/img/bremen/` | Marktplatz, Böttcherstraße, Schnoor, Schlachte, Universum, Bürgerpark | 6 | offen |
 | `assets/img/host/` | Porträt von Christoph | 1 | offen |
 | `assets/img/og/` | Vorschaubild fürs Teilen, 1200 × 630 Pixel | 1 | offen |
 
-> **Das wichtigste fehlende Foto ist der Parkplatz.** Er ist euer stärkstes
-> Verkaufsargument und wird auf der Seite an vier Stellen genannt — bisher gibt es
-> aber kein einziges Bild davon.
+> **Achtung bei `bad-03.jpg`:** Diese Aufnahme lag quer vor. Nach dem Hochladen bitte
+> auf der Seite kontrollieren — falls sie seitlich erscheint, einmal im Fotoprogramm
+> aufrecht drehen, neu speichern und erneut hochladen.
 
-> **Bremen-Bilder und Urheberrecht:** Nur eigene Fotos verwenden oder frei lizenzierte
-> von unsplash.com bzw. pexels.com. Bilder aus der Google-Suche zu übernehmen ist nicht
-> erlaubt. Wenn ihr keine habt: in `assets/js/gallery.js` die Liste `BREMEN_PLACES`
-> leeren, dann verschwindet der Bereich sauber von der Seite.
+> **Hoch- oder Querformat:** Die vier breiten Kacheln der Galerie sind für Querformat
+> gedacht (`wohnzimmer-01`, `wohnzimmer-03`, `schlafzimmer-03`, `kueche-01`). Wer die
+> Zuordnung ändert, passt in `assets/js/gallery.js` einfach `size: "wide"` an — sonst
+> werden Hochformat-Fotos oben und unten stark beschnitten.
 
 **Solange ein Bild fehlt, zeigt die Seite an der Stelle einen dezent gestalteten Platzhalter.**
 Die Seite sieht also zu keinem Zeitpunkt kaputt aus — sie füllt sich Stück für Stück.

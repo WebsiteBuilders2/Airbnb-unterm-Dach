@@ -1,5 +1,5 @@
 ================================================================
-  BILDER HIER ABLEGEN — Bremer Innenstadt (6 Fotos) - FEHLT NOCH
+  BILDER HIER ABLEGEN — Bremer Innenstadt (6 Fotos)
 ================================================================
 
 Diese Dateien werden erwartet (exakt diese Namen):
@@ -11,18 +11,16 @@ Diese Dateien werden erwartet (exakt diese Namen):
    universum.jpg
    buergerpark.jpg
 
-ACHTUNG URHEBERRECHT: Verwende nur eigene Fotos oder Bilder mit
-freier Lizenz. Kostenlos und ohne Namensnennung nutzbar sind z. B.
-unsplash.com und pexels.com. Bilder einfach aus der Google-Suche zu
-kopieren ist nicht erlaubt und kann teuer werden.
+Diese Fotos sind laut Absprache selbst aufgenommen - damit gibt es
+keine Lizenzfragen.
 
-Wenn du keine Bremen-Fotos hast: In assets/js/gallery.js einfach die
-Liste BREMEN_PLACES leeren, dann verschwindet der Bereich sauber.
+Die Karten sind im Hochformat angelegt (3:4). Hochformat-Aufnahmen
+wirken hier am besten; Querformat wird oben und unten beschnitten.
+
+Weniger als sechs Motive vorhanden? In assets/js/gallery.js aus der
+Liste BREMEN_PLACES einfach Eintraege loeschen. Die Reihe passt sich
+automatisch an.
 
 Hinweise:
-  - Format JPG, Breite 1600-2000 Pixel
+  - Format JPG, Breite 1200-1600 Pixel
   - Dateigroesse moeglichst unter 400 KB
-  - Fehlt eine Datei, zeigt die Seite dort einen dezenten
-    Platzhalter - die Seite bleibt also immer intakt.
-  - Mehr oder weniger Bilder? In assets/js/gallery.js
-    Zeilen ergaenzen oder loeschen.

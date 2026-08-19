@@ -8,19 +8,19 @@ Diese Dateien werden erwartet (exakt diese Namen):
    bad-02.jpg
    bad-03.jpg
 
-Reihenfolge laut deinen Fotos:
+Zuordnung:
   01 = Duschkabine mit Handtuchregal
   02 = Eckbadewanne unter der Dachschraege
-  03 = Waschbecken mit beleuchtetem Spiegel
+  03 = Waschbecken mit beleuchtetem Spiegel (neue, aufgeraeumte Aufnahme)
 
-TIPP: Auf Foto 03 stehen Putzmittel und Eimer unter dem Waschbecken.
-Fuer die Landingpage wirkt es hochwertiger, wenn du das Bild ohne
-diese Gegenstaende neu aufnimmst oder enger zuschneidest.
+WICHTIG ZU bad-03.jpg:
+Dieses Foto kam quer an. Bitte nach dem Hochladen auf der Seite
+kontrollieren. Liegt es dort seitlich, einmal im Fotoprogramm
+aufrecht drehen, neu speichern und erneut hochladen.
+(Am Handy: Foto oeffnen -> Bearbeiten -> Drehen -> Sichern.)
 
 Hinweise:
   - Format JPG, Breite 1600-2000 Pixel
   - Dateigroesse moeglichst unter 400 KB
   - Fehlt eine Datei, zeigt die Seite dort einen dezenten
     Platzhalter - die Seite bleibt also immer intakt.
-  - Mehr oder weniger Bilder? In assets/js/gallery.js
-    Zeilen ergaenzen oder loeschen.

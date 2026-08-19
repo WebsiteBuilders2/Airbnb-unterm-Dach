@@ -1,18 +1,15 @@
 ================================================================
-  BILDER HIER ABLEGEN — Aussenbereich und Parkplatz (2 Fotos) - FEHLT NOCH
+  BILDER HIER ABLEGEN — Aussenbereich und Parkplatz (2 Fotos)
 ================================================================
 
 Diese Dateien werden erwartet (exakt diese Namen):
 
-   aussen-01.jpg
-   aussen-02.jpg
+   aussen-01.jpg     Foto vorhanden
+   aussen-02.jpg     FEHLT NOCH
 
-WICHTIG: Diese beiden Fotos fehlen bisher und sind die wertvollsten
-der ganzen Seite. Der eigene Parkplatz ist euer staerkstes Argument -
-aber aktuell gibt es kein einziges Bild davon.
-
-  01 = der freie Privatparkplatz direkt am Haus
-  02 = Hauseingang bzw. Haus von aussen
+Zuordnung:
+  01 = der gepflasterte Privatparkplatz von oben
+  02 = Hauseingang bzw. Haus von aussen  <-- fehlt noch
 
 Hinweise:
   - Format JPG, Breite 1600-2000 Pixel
