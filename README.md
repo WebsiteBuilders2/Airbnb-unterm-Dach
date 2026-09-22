@@ -35,15 +35,15 @@ Lege deine Fotos einfach unter genau diesen Namen ab — **es muss nichts am Cod
 
 | Ordner | Inhalt | Anzahl | Status |
 |---|---|---|---|
-| `assets/img/hero/` | Titelbild — empfohlen: die Küchenansicht mit Theke | 1 | offen |
+| `assets/img/hero/` | Titelbild: Küchenansicht mit Theke | 1 | Foto vorhanden |
 | `assets/img/wohnzimmer/` | Eckcouch, Couchtisch, Fernsehbereich | 3 | Fotos vorhanden |
 | `assets/img/schlafzimmer/` | Betten, Zimmerübersicht, Massivholzschrank | 3 | Fotos vorhanden |
 | `assets/img/kueche/` | Theke mit Barhockern, Küchenzeile, Natursteinwand | 3 | Fotos vorhanden |
 | `assets/img/bad/` | Duschkabine, Eckbadewanne, Waschbecken | 3 | Fotos vorhanden |
 | `assets/img/aussen/` | Parkplatz, Hauseingang | 2 | Parkplatz da, Hauseingang fehlt |
-| `assets/img/bremen/` | Marktplatz, Böttcherstraße, Schnoor, Schlachte, Universum, Bürgerpark | 6 | offen |
-| `assets/img/host/` | Porträt von Christoph | 1 | offen |
-| `assets/img/og/` | Vorschaubild fürs Teilen, 1200 × 630 Pixel | 1 | offen |
+| `assets/img/bremen/` | Marktplatz, Schnoor, Schlachte, Wallanlagen | 4 | Fotos vorhanden (Pexels) |
+| `assets/img/host/` | Porträt von Christoph | 1 | Foto vorhanden |
+| `assets/img/og/` | Vorschaubild fürs Teilen, 1200 × 630 Pixel | 1 | Foto vorhanden |
 
 > **Achtung bei `bad-03.jpg`:** Diese Aufnahme lag quer vor. Nach dem Hochladen bitte
 > auf der Seite kontrollieren — falls sie seitlich erscheint, einmal im Fotoprogramm

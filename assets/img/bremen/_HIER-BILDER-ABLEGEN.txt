@@ -1,26 +1,25 @@
 ================================================================
-  BILDER HIER ABLEGEN — Bremer Innenstadt (6 Fotos)
+  BILDER HIER ABLEGEN — Bremer Innenstadt (4 Fotos)
 ================================================================
 
-Diese Dateien werden erwartet (exakt diese Namen):
+Vorhanden und eingebunden:
 
-   marktplatz.jpg
-   boettcherstrasse.jpg
-   schnoor.jpg
-   schlachte.jpg
-   universum.jpg
-   buergerpark.jpg
+   marktplatz.jpg    Dom und Rathaus am Marktplatz
+   schnoor.jpg       Schnoorviertel, Gasse mit Cafes
+   schlachte.jpg     Schlachte mit Segelschiffen
+   wallanlagen.jpg   Muehle am Wall in den Wallanlagen
 
-Diese Fotos sind laut Absprache selbst aufgenommen - damit gibt es
-keine Lizenzfragen.
+HERKUNFT: Diese vier Aufnahmen stammen von pexels.com. Die
+Pexels-Lizenz erlaubt die kostenlose kommerzielle Nutzung und
+verlangt keine Namensnennung. Rechtlich ist das also in Ordnung.
+Wer die Fotografen trotzdem nennen moechte, kann das im Abschnitt
+"Bildnachweise" im Impressum tun.
 
-Die Karten sind im Hochformat angelegt (3:4). Hochformat-Aufnahmen
-wirken hier am besten; Querformat wird oben und unten beschnitten.
-
-Weniger als sechs Motive vorhanden? In assets/js/gallery.js aus der
-Liste BREMEN_PLACES einfach Eintraege loeschen. Die Reihe passt sich
-automatisch an.
+Weitere Motive ergaenzen? Datei hier ablegen und in
+assets/js/gallery.js einen Eintrag in der Liste BREMEN_PLACES
+hinzufuegen. Eintraege ohne Foto bitte loeschen, sonst erscheint
+an der Stelle ein Platzhalter.
 
 Hinweise:
-  - Format JPG, Breite 1200-1600 Pixel
-  - Dateigroesse moeglichst unter 400 KB
+  - Hochformat wirkt hier am besten, die Karten sind 3:4
+  - Breite 900-1200 Pixel, Dateigroesse unter 350 KB
