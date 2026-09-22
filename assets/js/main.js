@@ -488,22 +488,39 @@
     return "https://wa.me/" + n + (text ? "?text=" + encodeURIComponent(text) : "");
   }
 
+  /* Ist eine E-Mail-Adresse hinterlegt? */
+  function hasEmail() {
+    return !!(CFG.email && CFG.email.indexOf("@") > 0);
+  }
+
   function initContactLinks() {
-    var tel  = "tel:" + String(CFG.phone || "").replace(/[^\d+]/g, "");
-    var mail = "mailto:" + (CFG.email || "");
+    var tel = "tel:" + String(CFG.phone || "").replace(/[^\d+]/g, "");
 
     [["#direct-phone", tel], ["#foot-phone", tel]].forEach(function (p) {
-      var el = $(p[0]); if (el) el.href = p[1];
-    });
-    [["#direct-mail", mail], ["#foot-mail", mail]].forEach(function (p) {
       var el = $(p[0]); if (el) el.href = p[1];
     });
     [["#direct-whatsapp"], ["#foot-wa"], ["#mcta-wa"]].forEach(function (p) {
       var el = $(p[0]); if (el) el.href = waLink("");
     });
 
+    /* Ohne E-Mail-Adresse lieber gar keinen Button als einen ins Leere */
+    if (hasEmail()) {
+      [["#direct-mail"], ["#foot-mail"]].forEach(function (p) {
+        var el = $(p[0]); if (el) el.href = "mailto:" + CFG.email;
+      });
+      var fm = $("#foot-mail"); if (fm) fm.textContent = CFG.email;
+    } else {
+      var mailBtn = $("#direct-mail");
+      if (mailBtn) mailBtn.remove();
+      var mailSendBtn = $('button[data-send="email"]');
+      if (mailSendBtn) mailSendBtn.remove();
+      var actions = $(".form-actions");
+      if (actions) actions.style.gridTemplateColumns = "1fr";
+      var footMail = $("#foot-mail");
+      if (footMail && footMail.parentNode) footMail.parentNode.remove();
+    }
+
     var fp = $("#foot-phone"); if (fp) fp.textContent = CFG.phone || "—";
-    var fm = $("#foot-mail");  if (fm) fm.textContent = CFG.email || "—";
 
     var addr = $("#foot-address");
     if (addr && CFG.address) {
@@ -603,6 +620,8 @@
       if (contactMissing()) { status("err", t("js.notConfigured")); return; }
 
       var text = buildMessage(data);
+
+      if (mode === "email" && !hasEmail()) { mode = "whatsapp"; }
 
       if (mode === "whatsapp") {
         window.open(waLink(text), "_blank", "noopener");

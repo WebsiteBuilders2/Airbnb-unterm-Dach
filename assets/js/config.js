@@ -11,15 +11,16 @@ window.SITE_CONFIG = {
   /* ---- Kontakt --------------------------------------------------------- */
 
   // Telefonnummer im internationalen Format (für den Anruf-Button)
-  // BEISPIEL: "+49 421 1234567"
-  phone: "+49 000 0000000",            // <<< BITTE ERSETZEN
+  phone: "+49 176 55796925",
 
   // WhatsApp-Nummer NUR MIT ZIFFERN, mit Ländervorwahl, ohne + und ohne Leerzeichen
-  // BEISPIEL: aus +49 171 1234567  wird  "491711234567"
-  whatsapp: "490000000000",            // <<< BITTE ERSETZEN
+  whatsapp: "4917655796925",
 
-  // E-Mail-Adresse für Anfragen
-  email: "info@unter-dem-dach-bremen.de",   // <<< BITTE ERSETZEN
+  // E-Mail-Adresse für Anfragen.
+  // Solange hier nichts steht, blendet die Seite alle E-Mail-Schaltflächen
+  // automatisch aus - es wird also nie auf eine falsche Adresse verlinkt.
+  // Sobald du eine Adresse einträgst, erscheinen sie von selbst wieder.
+  email: "",
 
   /* ---- Unterkunft ------------------------------------------------------ */
 

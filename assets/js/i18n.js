@@ -146,7 +146,7 @@ window.I18N = {
     "form.children":  "Children",
     "form.name":      "Your name",
     "form.namePh":    "First and last name",
-    "form.email":     "Email",
+    "form.email":     "Email (optional)",
     "form.emailPh":   "name@example.com",
     "form.phone":     "Phone (optional)",
     "form.phonePh":   "+49 …",
